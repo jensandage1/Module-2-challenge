@@ -28,60 +28,82 @@
 
 }
 
+#nav-items {
+    display: inline;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 
-
+}
 
 h1 {
     color: rgb(255, 255, 255);
     align-self: center;
     text-shadow: 2px 2px black;
-    font-size: 8vh;
+    font-size: 6vh;
    
 }
 
 
-li {
-    color: rgb(0, 0, 0);
-    display: flex;
-    font-size: 20px;
-    margin: 5px;
-    list-style-type: square;
-    list-style-position: inside;
-}
-
-ul {
-    list-style-type: square;
-    list-style-position: inside; 
-}
-
-#about-me-img {
-    height: 250px;
-    width: 200px;
-    margin: 6vh;
-    border: white solid 8px;
-    border-radius: 80px;
-    display:flex;
-    align-items: flex-start;
+#container h2 {
+    text-decoration: underline;
+    font-size: 5vh;
     position: relative;
-    bottom: 40px;
+    left: 80px;
 }
 
-.about-me {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    background-color:rgb(225, 210, 255);
-    Border: solid white 4px;
-    border-radius: 20px;
-    margin-top: 8vh;
-} 
 
-#about-me-text {
-    font-size: 20px;
-    line-height: 2;
-    color: black;
+#container {
+    display: flex;
+}
+
+#container div {
+    background-color: rgb(225, 210, 255);
+    border: solid white 4px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+
+}
+
+#container-div-about-me {
+    width: 30%;
+    background-color:rgb(238, 193, 247);
+    line-height: 1;
     
 }
+
+#container img {
+    width: 200px;
+    height: 250px;
+    border: solid white 4px;
+    border-radius: 80px;
+    margin-left: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+ 
+}
+
+#container li {
+    margin-bottom: 18px;
+}
+
+#container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 3vh;
+    flex-wrap: wrap;
+    
+
+}
+
+    
 
 .img-2 {
     height: 200px;
@@ -128,12 +150,8 @@ ul {
 
 
 
-h2 {
-    text-decoration: underline;
-    font-size: 5vh;
-    text-align: center;
-    
-}
+
+
 
 
 
